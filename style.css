@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(254, 193, 100);
+}
+.container {
+  background-color: white;
+  width: 80vh;
+  border-radius: 1.2rem;
+  padding: 0rem 2rem 0rem 2rem;
+  margin: 20px;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 1rem;
+}
+form {
+  margin: 0rem 0 1rem 0;
+}
+form select,
+button,
+input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 1rem;
+}
+form input {
+  border: 1px solid gray;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 90%;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.select-container img {
+  width: 2rem;
+}
+
+.btn {
+  background-color: rgb(99, 201, 148);
+  width: 30vh;
+  height: 4vh;
+  margin: 0;
+  margin-top: 1rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  transform: scale(1.4);
+  background-color: rgb(144, 222, 182);
+  
+}
+.stm {
+  margin-top: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    background-color: white;
+    width: 50vh;
+    border-radius: 1.2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 10px;
+  }
+  .select-container {
+    border-radius: 1rem;
+    padding-left: 0.4rem;
+    margin-top: 0.2rem;
+    
+  }
+  .select-container img {
+    width: 1rem;
+  }
+.dropdown{
+    font-size: 0.7rem;
+  }
+  form select,
+  button,
+  input {
+    margin: 0.4rem;
+    font-size: 0.5rem;
+  }
+  .amount p{
+    font-size: 0.8rem;
+  }
+  .stm{
+    font-size: 0.8rem;
+  }
+  form input{
+    padding: 0.4rem;
+  }
+  h2 {
+  font-size: 01rem;
+}
+.link {
+  margin-top: 1.2rem;
+}
+.btn {
+  background-color: rgb(99, 201, 148);
+  width: 20vh;
+  height: 3vh;
+  margin: 0;
+  margin-top: 0.7rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  transform: scale(1.3);
+  background-color: rgb(144, 222, 182);
+  
+}
+}
